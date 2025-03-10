@@ -1,0 +1,68 @@
+{
+  "name": "Proiect_RPA",
+  "projectId": "05625ec1-b685-4680-b383-7eb0859a335f",
+  "description": "Blank Process",
+  "main": "Carrefour.xaml",
+  "dependencies": {
+    "Google.Apis.WorkspaceEvents.v1": "[1.68.0.3666]",
+    "Redmoon.GoogleSpreadsheet": "[1.7.0]",
+    "UiPath.Excel.Activities": "[2.24.1]",
+    "UiPath.IntegrationService.Activities": "[1.11.0]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.PDF.Activities": "[3.20.2]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Testing.Activities": "[24.10.2-preview]",
+    "UiPath.UIAutomation.Activities": "[24.12.4-preview]",
+    "UiPath.WebAPI.Activities": "[1.21.0]",
+    "UiPathTeam.GoogleSpreadsheet.Activities": "[2.0.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Carrefour.xaml",
+      "uniqueId": "6b646698-13d9-4f2f-bf7e-b07e2d7aa730",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
